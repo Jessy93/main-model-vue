@@ -1,0 +1,32 @@
+:root {
+   --bg-fff: #ffffff;
+   --bg-green: #31af36;
+   --bg-third: #7a9f78;
+   
+   --clr-fff:#fff;
+   --clr-dark: #272727;
+   --clr-green: #31af36;
+}
+
+@media (prefers-color-scheme: dark) {
+  body:not([class~=light-theme]) {
+    --bg-fff: #ffffff;
+    --bg-green: #31af36;
+    --bg-third: #7a9f78;
+    
+    --clr-fff:#fff;
+    --clr-dark: #272727;
+    --clr-green: #31af36;
+  }
+}
+
+
+body.app.dark-theme {
+    --bg-fff: #ffffff;
+    --bg-green: #31af36;
+    --bg-third: #7a9f78;
+    
+    --clr-fff:#fff;
+    --clr-dark: #272727;
+    --clr-green: #31af36;
+} 

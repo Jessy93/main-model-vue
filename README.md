@@ -1,4 +1,4 @@
-# eds
+# main-model-vue
 
 ## Project setup
 ```

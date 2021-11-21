@@ -1,0 +1,35 @@
+// Fade
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+//> END Fade
+
+// Bounce
+.bounce-enter-active {
+  animation-name: bounce-in;
+  animation-duration: .5s;
+  animation-timing-function: ease;
+}
+.bounce-leave-active {
+  animation-name: bounce-in;
+  animation-duration: .5s;
+  animation-timing-function: ease;
+  animation-direction: reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(.4);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
